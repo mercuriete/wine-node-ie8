@@ -3,7 +3,7 @@
     {
       "browserName": "internet explorer",
       "version": "8",
-      "platform":"WINDOWS",
+      "platform":"ANY",
       "maxInstances": 1
     }
   ],
