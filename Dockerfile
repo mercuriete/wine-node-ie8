@@ -12,4 +12,5 @@ ADD config.json /opt/selenium/config.json
 #RUN cd /home/seluser && xvfb-run wine IE8-WindowsXP-x86-ENU.exe /quiet /update-no /forcerestart
 
 USER seluser
+EXPOSE 5555
 
