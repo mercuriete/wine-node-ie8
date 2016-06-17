@@ -5,6 +5,7 @@ RUN /bin/bash && sudo dpkg --add-architecture i386 && sudo add-apt-repository pp
 
 ADD IEDriverServer.exe /home/seluser
 ADD IE8-WindowsXP-x86-ENU.exe /home/seluser
+ADD jre-8u5-windows-i586.exe /home/seluser
 ADD wine_profile.tar.gz /home/seluser
 ADD entry_point.sh /opt/bin/
 ADD config.json /opt/selenium/config.json
